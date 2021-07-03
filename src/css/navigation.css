@@ -1,0 +1,79 @@
+
+html{
+    font-size:62.5%;
+}
+
+ul li {
+    margin: .8rem;
+    border-radius: 2rem;
+    
+}
+
+#menu{
+    padding: 1rem 0;
+}
+li:hover {
+    background-color:grey;
+    color: transparent;
+}
+#menu.navbar-default .navbar-nav > li > a {
+    color: black;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+    color:white;
+}
+
+ /* #a{
+    text-transform: uppercase;
+    color: black;
+    text-align:center;
+    font-size:15px;
+}
+.btn-success {
+    color: #fff;
+    background-color: white;
+    border-color:white;
+} */
+/*
+.btn {
+    
+    /* padding: 6px 12px; */
+    /* margin: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    /* border: 1px solid transparent; */
+    /* border-radius: 20px;
+    color: #fff; */
+/* }
+.btn:hover{
+    color: #fff;
+} */ 
+
+
+@media(max-width:998px){
+	html{
+		font-size: 55%;
+	}
+}
+
+
+@media (max-width: 768px) {
+	html{
+		font-size: 45%;
+	}
+}
